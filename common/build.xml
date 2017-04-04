@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<project name="Latticesoft Commons" default="package" basedir=".">
+
+	<!-- ================================================== -->
+	<!-- Setting common properties -->
+	<!-- ================================================== -->
+	<property file="build.properties"/>
+
+	<!-- ================================================== -->
+	<!--  Create the directory  -->
+	<!-- ================================================== -->
+	<target name="init">
+		<mkdir dir="${project_bin}"/>
+		<mkdir dir="${project_dist}"/>
+		<mkdir dir="${project_lib}"/>
+		<mkdir dir="${project_src}"/>
+	</target>
+	
+	<!-- ================================================== -->
+	<!--  Clean up the build directory  -->
+	<!-- ================================================== -->
+	<target name="clean">
+		<delete verbose="true">
+			<fileset dir="${project_bin}">
+				<include name="**/*.class"/>
+				<exclude name="**/*.properties"/>
+				<exclude name="**/*.xml"/>
+			</fileset>
+		</delete>
+		<delete verbose="true">
+			<fileset dir="${project_dist}">
+				<include name="**/*.jar"/>
+				<include name="**/*.ear"/>
+				<include name="**/*.war"/>
+				<include name="**/*.xml"/>
+			</fileset>
+		</delete>
+	</target>
+
+	<!-- ================================================== -->
+	<!--  Compile the source codes  -->
+	<!-- ================================================== -->
+	<path id="classpath_lib">
+		<fileset caseSensitive="No" dir="./lib">
+			<include name="**/*.jar"/>
+		</fileset>
+	</path>
+
+	<target name="compile">
+		<javac srcdir="${project_src}/java" destdir="${project_bin}" verbose="false" debug="true" deprecation="false">
+			<include name="org/latticesoft/**/*.java"/>
+			<exclude name="**/old/*.java"/>
+			<exclude name="**/*old.java"/>
+			<classpath refid="classpath_lib" />
+		</javac>
+	</target>
+	
+	<!-- ================================================== -->
+	<!-- Jar the files -->
+	<!-- ================================================== -->
+	<target name="package" description="latticesoft-commons.jar">
+		<mkdir dir="dist"/>
+		<delete file="dist/latticesoft-commons.jar" />
+		<jar destfile="dist/latticesoft-commons.jar">
+		<zipfileset dir="bin" includes="**/*.class" excludes="**/*.old"/>
+		</jar>
+	</target>
+	<!-- ================================================== -->
+	<!-- Jar the src files -->
+	<!-- ================================================== -->
+	<target name="packageSrc" description="latticesoft-commons.jar">
+		<mkdir dir="dist"/>
+		<delete file="dist/latticesoft-commons-src.jar" />
+		<jar destfile="dist/latticesoft-commons-src.jar">
+		<zipfileset dir="src/java" includes="**/*.*" excludes="**/*.old"/>
+		</jar>
+	</target>
+
+	<!-- ================================================== -->
+	<!--  Generate the javadoc -->
+	<!-- ================================================== -->
+	<target name="javadoc">
+		<echo> === Generation of class documentation === </echo>
+		<javadoc 
+			private="true" 
+			destdir="${doc.dir}" 
+			author="true" 
+			version="true" 
+			use="true" 
+			windowtitle="Lattice API"
+			packageList="${doc.dir}/pkg.txt"
+			sourcePath="${java.src}">
+			<classpath refid="classpath_lib" />
+			<doctitle><![CDATA[<h1>Lattice API</h1>]]></doctitle>
+			<bottom><![CDATA[<i>Copyright &#169; 2004 lattice.org All Rights Reserved.</i>]]></bottom>
+			<tag name="todo" scope="all" description="To do:" />
+			<group title="Utility" packages="org.lattice.util.common:org.lattice.util.convert:org.lattice.util.misc:org.lattice.util.xml:org.lattice.util.service"/>
+			<group title="Framework" packages="org.lattice.framework.controller:org.lattice.framework:org.lattice.framework.command:org.lattice.framework.command.expression"/>
+			<link offline="true" href="http://java.sun.com/products/jdk/1.4.2/docs/api/" packagelistLoc="C:/Progra~1/Java/J2se1.4.2/docs/api"/>
+		</javadoc>
+		
+	</target>
+
+	
+	<!-- ================================================== -->
+	<!-- Deploy the jar files -->
+	<!-- ================================================== -->
+	<target name="copyFileToOtherProject" description="">
+		<copy file="dist/latticesoft-commons.jar" todir="../vrl/lib" verbose="true"/>
+		<copy file="dist/latticesoft-commons.jar" todir="../downloader/lib" verbose="true"/>
+		<copy file="dist/latticesoft-commons.jar" todir="../mirror/lib" verbose="true"/>
+		<copy file="dist/latticesoft-commons.jar" todir="../lottery/lib" verbose="true"/>
+		<copy file="dist/latticesoft-commons.jar" todir="../vrl/lib" verbose="true"/>
+		<copy file="dist/latticesoft-commons.jar" todir="../misc/lib" verbose="true"/>
+		<copy file="dist/latticesoft-commons.jar" todir="../jp/lib" verbose="true"/>
+	</target>
+
+
+	<target name="all" depends="compile, package, packageSrc, copyFileToOtherProject"/>
+	
+</project>
+
