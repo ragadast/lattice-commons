@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dao>
+	<datasource>
+	<!-- <user></user>
+		<password></password>
+		<driver></driver>
+		<url></url>
+		<jndi/>-->
+		<dsn>lottery</dsn>
+	</datasource>
+	<services>
+		<service name="findToto" methodString="executeQueryObject">
+			<type>org.latticesoft.lottery.DataLottery</type>
+			<sql>SELECT * FROM toto WHERE id=?</sql>
+			<input>
+				<param sqlIndex="1" sqlTypeString="Integer" attribute="drawId"/>
+			</input>
+			<output>
+				<param sqlName="id" sqlType="Integer" attribute="drawId"/>
+				<param sqlName="ddate" ssqlType="Timestamp" attribute="drawDate"/>
+				<param sqlName="d1" sqlType="Integer" attribute="toto1"/>
+				<param sqlName="d2" sqlType="Integer" attribute="toto2"/>
+				<param sqlName="d3" sqlType="Integer" attribute="toto3"/>
+				<param sqlName="d4" sqlType="Integer" attribute="toto4"/>
+				<param sqlName="d5" sqlType="Integer" attribute="toto5"/>
+				<param sqlName="d6" sqlType="Integer" attribute="toto6"/>
+				<param sqlName="d7" sqlType="Integer" attribute="toto7"/>
+			</output>
+		</service>
+		<service name="findTotoBetween" methodString="executeQuery">
+			<type>org.latticesoft.lottery.DataLottery</type>
+			<sql>SELECT * FROM toto WHERE id BETWEEN ? AND ?</sql>
+			<input>
+				<param sqlName="p1" sqlIndex="1" sqlTypeString="Integer" attribute="toto1"/>
+				<param sqlName="p2" sqlIndex="2" sqlTypeString="Integer" attribute="toto2"/>
+			</input>
+			<output>
+				<param sqlName="id" sqlType="Integer" attribute="drawId"/>
+				<param sqlName="ddate" ssqlType="Timestamp" attribute="drawDate"/>
+				<param sqlName="d1" sqlType="Integer" attribute="toto1"/>
+				<param sqlName="d2" sqlType="Integer" attribute="toto2"/>
+				<param sqlName="d3" sqlType="Integer" attribute="toto3"/>
+				<param sqlName="d4" sqlType="Integer" attribute="toto4"/>
+				<param sqlName="d5" sqlType="Integer" attribute="toto5"/>
+				<param sqlName="d6" sqlType="Integer" attribute="toto6"/>
+				<param sqlName="d7" sqlType="Integer" attribute="toto7"/>
+			</output>
+		</service>
+	</services>
+</dao>

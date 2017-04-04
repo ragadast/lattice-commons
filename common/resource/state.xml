@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<statemachine>
+	<states>
+		<state name="Normal" default="true"></state>
+		<state name="Happy"></state>
+		<state name="Relax"></state>
+		<state name="Angry"></state>
+	</states>
+	<transitions>
+		<transition from="Begin" to="Normal">
+			<condition>Default</condition>
+		</transition>
+		<transition from="Normal" to="Relax">
+			<condition>moodState == relax AND env == music</condition>
+		</transition>
+		<transition from="Relax" to="Angry">
+			<condition>moodState == relax AND env == music</condition>
+		</transition>
+		<transition from="Relax" to="Angry">
+			<condition>moodState == relax AND env == music</condition>
+		</transition>
+	</transitions>
+</statemachine>

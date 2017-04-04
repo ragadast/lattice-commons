@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<digester-rules>
+	<pattern value="main">
+		<object-create-rule classname="org.latticesoft.util.xml.XmlMain" />
+		<set-properties-rule />
+	</pattern>
+	<pattern value="*/helper">
+		<object-create-rule classname="org.latticesoft.util.xml.XmlHelper" />
+		<set-properties-rule />
+		<set-next-rule methodname="add"/>
+	</pattern>
+	
+	<pattern value="*/testBean">
+		<object-create-rule classname="org.latticesoft.util.common.TestBean" />
+		<set-properties-rule />
+		<set-next-rule methodname="add"/>
+	</pattern>
+	<pattern value="*/arrayList">
+		<object-create-rule classname="java.util.ArrayList" />
+		<set-properties-rule />
+		<set-next-rule methodname="add"/>
+	</pattern>
+	
+</digester-rules>

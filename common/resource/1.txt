@@ -1,0 +1,2966 @@
+
+Keystore type: JKS
+Keystore provider: SUN
+
+Your keystore contains 68 entries
+
+Alias name: aolrootca2
+Creation date: Mar 27, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=America Online Root Certification Authority 2, O=America Online Inc., C=US
+Issuer: CN=America Online Root Certification Authority 2, O=America Online Inc., C=US
+Serial number: 1
+Valid from: Tue May 28 14:00:00 SGT 2002 until: Tue Sep 29 22:08:00 SGT 2037
+Certificate fingerprints:
+	 MD5:  D6:ED:3C:CA:E2:66:0F:AF:10:43:0D:77:9B:04:09:BF
+	 SHA1: 85:B5:FF:67:9B:0C:79:96:1F:C8:6E:44:22:00:46:13:DB:17:92:84
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 4D 45 C1 68 38 BB 73 A9   69 A1 20 E7 ED F5 22 A1  ME.h8.s.i. ...".
+0010: 23 14 D7 9E                                        #...
+]
+]
+
+#4: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 4D 45 C1 68 38 BB 73 A9   69 A1 20 E7 ED F5 22 A1  ME.h8.s.i. ...".
+0010: 23 14 D7 9E                                        #...
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: deutschetelekomrootca2
+Creation date: Nov 7, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=Deutsche Telekom Root CA 2, OU=T-TeleSec Trust Center, O=Deutsche Telekom AG, C=DE
+Issuer: CN=Deutsche Telekom Root CA 2, OU=T-TeleSec Trust Center, O=Deutsche Telekom AG, C=DE
+Serial number: 26
+Valid from: Fri Jul 09 20:11:00 SGT 1999 until: Wed Jul 10 07:59:00 SGT 2019
+Certificate fingerprints:
+	 MD5:  74:01:4A:91:B1:08:C4:58:CE:47:CD:F0:DD:11:53:08
+	 SHA1: 85:A4:08:C0:9C:19:3E:5D:51:58:7D:CD:D6:13:30:FD:8C:DE:37:BF
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 31 C3 79 1B BA F5 53 D7   17 E0 89 7A 2D 17 6C 0A  1.y...S....z-.l.
+0010: B3 2B 9D 33                                        .+.3
+]
+]
+
+#3: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:5
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: aolrootca1
+Creation date: Jan 18, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=America Online Root Certification Authority 1, O=America Online Inc., C=US
+Issuer: CN=America Online Root Certification Authority 1, O=America Online Inc., C=US
+Serial number: 1
+Valid from: Tue May 28 14:00:00 SGT 2002 until: Fri Nov 20 04:43:00 SGT 2037
+Certificate fingerprints:
+	 MD5:  14:F1:08:AD:9D:FA:64:E2:89:E7:1C:CF:A8:AD:7D:5E
+	 SHA1: 39:21:C1:15:C1:5D:0E:CA:5C:CB:5B:C4:F0:7D:21:D8:05:0B:56:6A
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 00 AD D9 A3 F6 79 F6 6E   74 A9 7F 33 3D 81 17 D7  .....y.nt..3=...
+0010: 4C CF 33 DE                                        L.3.
+]
+]
+
+#4: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 00 AD D9 A3 F6 79 F6 6E   74 A9 7F 33 3D 81 17 D7  .....y.nt..3=...
+0010: 4C CF 33 DE                                        L.3.
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: secomscrootca1
+Creation date: May 1, 2008
+Entry type: trustedCertEntry
+
+Owner: OU=Security Communication RootCA1, O=SECOM Trust.net, C=JP
+Issuer: OU=Security Communication RootCA1, O=SECOM Trust.net, C=JP
+Serial number: 0
+Valid from: Tue Sep 30 12:20:49 SGT 2003 until: Sat Sep 30 12:20:49 SGT 2023
+Certificate fingerprints:
+	 MD5:  F1:BC:63:6A:54:E0:B5:27:F5:CD:E7:1A:E3:4D:6E:4A
+	 SHA1: 36:B1:2B:49:F9:81:9E:D7:4C:9E:BC:38:0F:C6:56:8F:5D:AC:B2:F7
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: A0 73 49 99 68 DC 85 5B   65 E3 9B 28 2F 57 9F BD  .sI.h..[e..(/W..
+0010: 33 BC 07 48                                        3..H
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: verisignclass3g2ca
+Creation date: Mar 26, 2004
+Entry type: trustedCertEntry
+
+Owner: OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 3 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+Issuer: OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 3 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+Serial number: 7dd9fe07cfa81eb7107967fba78934c6
+Valid from: Mon May 18 08:00:00 SGT 1998 until: Wed Aug 02 07:59:59 SGT 2028
+Certificate fingerprints:
+	 MD5:  A2:33:9B:4C:74:78:73:D4:6C:E7:C1:F3:8D:CB:5C:E9
+	 SHA1: 85:37:1C:A6:E5:50:14:3D:CE:28:03:47:1B:DE:3A:09:E8:F8:77:0F
+	 Signature algorithm name: SHA1withRSA
+	 Version: 1
+
+
+*******************************************
+*******************************************
+
+
+Alias name: entrustclientca
+Creation date: Jan 9, 2003
+Entry type: trustedCertEntry
+
+Owner: CN=Entrust.net Client Certification Authority, OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/Client_CA_Info/CPS incorp. by ref. limits liab., O=Entrust.net, C=US
+Issuer: CN=Entrust.net Client Certification Authority, OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/Client_CA_Info/CPS incorp. by ref. limits liab., O=Entrust.net, C=US
+Serial number: 380391ee
+Valid from: Wed Oct 13 03:24:30 SGT 1999 until: Sun Oct 13 03:54:30 SGT 2019
+Certificate fingerprints:
+	 MD5:  0C:41:2F:13:5B:A0:54:F5:96:66:2D:7E:CD:0E:03:F4
+	 SHA1: DA:79:C1:71:11:50:C2:34:39:AA:2B:0B:0C:62:FD:55:B2:F9:F5:80
+	 Signature algorithm name: MD5withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.16 Criticality=false
+PrivateKeyUsage: [
+From: Wed Oct 13 03:24:30 SGT 1999, To: Sun Oct 13 03:24:30 SGT 2019]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: C4 FB 9C 29 7B 97 CD 4C   96 FC EE 5B B3 CA 99 74  ...)...L...[...t
+0010: 8B 95 EA 4C                                        ...L
+]
+]
+
+#4: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
+
+#5: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [CN=CRL1, CN=Entrust.net Client Certification Authority, OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/Client_CA_Info/CPS incorp. by ref. limits liab., O=Entrust.net, C=US]
+, DistributionPoint:
+     [URIName: http://www.entrust.net/CRL/Client1.crl]
+]]
+
+#6: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#7: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
+NetscapeCertType [
+   SSL CA
+   S/MIME CA
+   Object Signing CA]
+
+#8: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: C4 FB 9C 29 7B 97 CD 4C   96 FC EE 5B B3 CA 99 74  ...)...L...[...t
+0010: 8B 95 EA 4C                                        ...L
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: certumtrustednetworkca
+Creation date: Feb 11, 2009
+Entry type: trustedCertEntry
+
+Owner: CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL
+Issuer: CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL
+Serial number: 444c0
+Valid from: Wed Oct 22 20:07:37 SGT 2008 until: Mon Dec 31 20:07:37 SGT 2029
+Certificate fingerprints:
+	 MD5:  D5:E9:81:40:C5:18:69:FC:46:2C:89:75:62:0F:AA:78
+	 SHA1: 07:E0:32:E0:20:B7:2C:3F:19:2F:06:28:A2:59:3A:19:A7:0F:06:9E
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 08 76 CD CB 07 FF 24 F6   C5 CD ED BB 90 BC E2 84  .v....$.........
+0010: 37 46 75 F7                                        7Fu.
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: thawtepersonalbasicca
+Creation date: Feb 13, 1999
+Entry type: trustedCertEntry
+
+Owner: EMAILADDRESS=personal-basic@thawte.com, CN=Thawte Personal Basic CA, OU=Certification Services Division, O=Thawte Consulting, L=Cape Town, ST=Western Cape, C=ZA
+Issuer: EMAILADDRESS=personal-basic@thawte.com, CN=Thawte Personal Basic CA, OU=Certification Services Division, O=Thawte Consulting, L=Cape Town, ST=Western Cape, C=ZA
+Serial number: 0
+Valid from: Mon Jan 01 08:00:00 SGT 1996 until: Fri Jan 01 07:59:59 SGT 2021
+Certificate fingerprints:
+	 MD5:  E6:0B:D2:C9:CA:2D:88:DB:1A:71:0E:4B:78:EB:02:41
+	 SHA1: 40:E7:8C:1D:52:3D:1C:D9:95:4F:AC:1A:1A:B3:BD:3C:BA:A1:5B:FC
+	 Signature algorithm name: MD5withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: certumca
+Creation date: Feb 11, 2009
+Entry type: trustedCertEntry
+
+Owner: CN=Certum CA, O=Unizeto Sp. z o.o., C=PL
+Issuer: CN=Certum CA, O=Unizeto Sp. z o.o., C=PL
+Serial number: 10020
+Valid from: Tue Jun 11 18:46:39 SGT 2002 until: Fri Jun 11 18:46:39 SGT 2027
+Certificate fingerprints:
+	 MD5:  2C:8F:9F:66:1D:18:90:B1:47:26:9D:8E:86:82:8C:A9
+	 SHA1: 62:52:DC:40:F7:11:43:A2:2F:DE:9E:F7:34:8E:06:42:51:B1:81:18
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: globalsignca
+Creation date: Mar 27, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE
+Issuer: CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE
+Serial number: 40000000001154b5ac394
+Valid from: Tue Sep 01 20:00:00 SGT 1998 until: Fri Jan 28 20:00:00 SGT 2028
+Certificate fingerprints:
+	 MD5:  3E:45:52:15:09:51:92:E1:B7:5D:37:9F:B1:87:29:8A
+	 SHA1: B1:BC:96:8B:D4:F4:9D:62:2A:A8:9A:81:F2:15:01:52:A4:1D:82:9C
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 60 7B 66 1A 45 0D 97 CA   89 50 2F 7D 04 CD 34 A8  `.f.E....P/...4.
+0010: FF FC FD 4B                                        ...K
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: secomvalicertclass1ca
+Creation date: May 1, 2008
+Entry type: trustedCertEntry
+
+Owner: EMAILADDRESS=info@valicert.com, CN=http://www.valicert.com/, OU=ValiCert Class 1 Policy Validation Authority, O="ValiCert, Inc.", L=ValiCert Validation Network
+Issuer: EMAILADDRESS=info@valicert.com, CN=http://www.valicert.com/, OU=ValiCert Class 1 Policy Validation Authority, O="ValiCert, Inc.", L=ValiCert Validation Network
+Serial number: 1
+Valid from: Sat Jun 26 06:23:48 SGT 1999 until: Wed Jun 26 06:23:48 SGT 2019
+Certificate fingerprints:
+	 MD5:  65:58:AB:15:AD:57:6C:1E:A8:A7:B5:69:AC:BF:FF:EB
+	 SHA1: E5:DF:74:3C:B6:01:C4:9B:98:43:DC:AB:8C:E8:6A:81:10:9F:E4:8E
+	 Signature algorithm name: SHA1withRSA
+	 Version: 1
+
+
+*******************************************
+*******************************************
+
+
+Alias name: camerfirmachambersignca
+Creation date: Oct 11, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+Issuer: CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+Serial number: c9cdd3e9d57d23ce
+Valid from: Fri Aug 01 20:31:40 SGT 2008 until: Sat Jul 31 20:31:40 SGT 2038
+Certificate fingerprints:
+	 MD5:  9E:80:FF:78:01:0C:2E:C1:36:BD:FE:96:90:6E:08:F3
+	 SHA1: 4A:BD:EE:EC:95:0D:35:9C:89:AE:C7:52:A1:2C:5B:29:F6:D6:AA:0C
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:12
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: B9 09 CA 9C 1E DB D3 6C   3A 6B AE ED 54 F1 5B 93  .......l:k..T.[.
+0010: 06 35 2E 5E                                        .5.^
+]
+]
+
+#4: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.5.29.32.0]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 1C 68 74 74 70 3A 2F   2F 70 6F 6C 69 63 79 2E  ..http://policy.
+0010: 63 61 6D 65 72 66 69 72   6D 61 2E 63 6F 6D        camerfirma.com
+
+]]  ]
+]
+
+#5: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: B9 09 CA 9C 1E DB D3 6C   3A 6B AE ED 54 F1 5B 93  .......l:k..T.[.
+0010: 06 35 2E 5E                                        .5.^
+]
+
+[CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU]
+SerialNumber: [    c9cdd3e9 d57d23ce]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: addtrustclass1ca
+Creation date: May 2, 2006
+Entry type: trustedCertEntry
+
+Owner: CN=AddTrust Class 1 CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE
+Issuer: CN=AddTrust Class 1 CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE
+Serial number: 1
+Valid from: Tue May 30 18:38:31 SGT 2000 until: Sat May 30 18:38:31 SGT 2020
+Certificate fingerprints:
+	 MD5:  1E:42:95:02:33:92:6B:B9:5F:C0:7F:DA:D6:B2:4B:FC
+	 SHA1: CC:AB:0E:A0:4C:23:01:D6:69:7B:DD:37:9F:CD:12:EB:24:E3:94:9D
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 95 B1 B4 F0 94 B6 BD C7   DA D1 11 09 21 BE C1 AF  ............!...
+0010: 49 FD 10 7B                                        I...
+]
+]
+
+#4: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 95 B1 B4 F0 94 B6 BD C7   DA D1 11 09 21 BE C1 AF  ............!...
+0010: 49 FD 10 7B                                        I...
+]
+
+[CN=AddTrust Class 1 CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE]
+SerialNumber: [    01]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: digicertassuredidrootca
+Creation date: Jan 8, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+Issuer: CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+Serial number: ce7e0e517d846fe8fe560fc1bf03039
+Valid from: Fri Nov 10 08:00:00 SGT 2006 until: Mon Nov 10 08:00:00 SGT 2031
+Certificate fingerprints:
+	 MD5:  87:CE:0B:7B:2A:0E:49:00:E1:58:71:9B:37:A8:93:72
+	 SHA1: 05:63:B8:63:0D:62:D7:5A:BB:C8:AB:1E:4B:DF:B5:A8:99:B2:4D:43
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 45 EB A2 AF F4 92 CB 82   31 2D 51 8B A7 A7 21 9D  E.......1-Q...!.
+0010: F3 6D C8 0F                                        .m..
+]
+]
+
+#4: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 45 EB A2 AF F4 92 CB 82   31 2D 51 8B A7 A7 21 9D  E.......1-Q...!.
+0010: F3 6D C8 0F                                        .m..
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: verisignclass2g3ca
+Creation date: Mar 26, 2004
+Entry type: trustedCertEntry
+
+Owner: CN=VeriSign Class 2 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+Issuer: CN=VeriSign Class 2 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+Serial number: 6170cb498c5f984529e7b0a6d9505b7a
+Valid from: Fri Oct 01 08:00:00 SGT 1999 until: Thu Jul 17 07:59:59 SGT 2036
+Certificate fingerprints:
+	 MD5:  F8:BE:C4:63:22:C9:A8:46:74:8B:B8:1D:1E:4A:2B:F6
+	 SHA1: 61:EF:43:D7:7F:CA:D4:61:51:BC:98:E0:C3:59:12:AF:9F:EB:63:11
+	 Signature algorithm name: SHA1withRSA
+	 Version: 1
+
+
+*******************************************
+*******************************************
+
+
+Alias name: addtrustexternalca
+Creation date: May 2, 2006
+Entry type: trustedCertEntry
+
+Owner: CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE
+Issuer: CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE
+Serial number: 1
+Valid from: Tue May 30 18:48:38 SGT 2000 until: Sat May 30 18:48:38 SGT 2020
+Certificate fingerprints:
+	 MD5:  1D:35:54:04:85:78:B0:3F:42:42:4D:BF:20:73:0A:3F
+	 SHA1: 02:FA:F3:E2:91:43:54:68:60:78:57:69:4D:F5:E4:5B:68:85:18:68
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: AD BD 98 7A 34 B4 26 F7   FA C4 26 54 EF 03 BD E0  ...z4.&...&T....
+0010: 24 CB 54 1A                                        $.T.
+]
+]
+
+#4: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: AD BD 98 7A 34 B4 26 F7   FA C4 26 54 EF 03 BD E0  ...z4.&...&T....
+0010: 24 CB 54 1A                                        $.T.
+]
+
+[CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE]
+SerialNumber: [    01]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: thawtepersonalpremiumca
+Creation date: Feb 13, 1999
+Entry type: trustedCertEntry
+
+Owner: EMAILADDRESS=personal-premium@thawte.com, CN=Thawte Personal Premium CA, OU=Certification Services Division, O=Thawte Consulting, L=Cape Town, ST=Western Cape, C=ZA
+Issuer: EMAILADDRESS=personal-premium@thawte.com, CN=Thawte Personal Premium CA, OU=Certification Services Division, O=Thawte Consulting, L=Cape Town, ST=Western Cape, C=ZA
+Serial number: 0
+Valid from: Mon Jan 01 08:00:00 SGT 1996 until: Fri Jan 01 07:59:59 SGT 2021
+Certificate fingerprints:
+	 MD5:  3A:B2:DE:22:9A:20:93:49:F9:ED:C8:D2:8A:E7:68:0D
+	 SHA1: 36:86:35:63:FD:51:28:C7:BE:A6:F0:05:CF:E9:B4:36:68:08:6C:CE
+	 Signature algorithm name: MD5withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: digicertglobalrootca
+Creation date: Jan 8, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+Issuer: CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+Serial number: 83be056904246b1a1756ac95991c74a
+Valid from: Fri Nov 10 08:00:00 SGT 2006 until: Mon Nov 10 08:00:00 SGT 2031
+Certificate fingerprints:
+	 MD5:  79:E4:A9:84:0D:7D:3A:96:D7:C0:4F:E2:43:4C:89:2E
+	 SHA1: A8:98:5D:3A:65:E5:E5:C4:B2:D7:D6:6D:40:C6:DD:2F:B1:9C:54:36
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 03 DE 50 35 56 D1 4C BB   66 F0 A3 E2 1B 1B C3 97  ..P5V.L.f.......
+0010: B2 3D D1 55                                        .=.U
+]
+]
+
+#4: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 03 DE 50 35 56 D1 4C BB   66 F0 A3 E2 1B 1B C3 97  ..P5V.L.f.......
+0010: B2 3D D1 55                                        .=.U
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: trustcenteruniversalcai
+Creation date: Jan 8, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=TC TrustCenter Universal CA I, OU=TC TrustCenter Universal CA, O=TC TrustCenter GmbH, C=DE
+Issuer: CN=TC TrustCenter Universal CA I, OU=TC TrustCenter Universal CA, O=TC TrustCenter GmbH, C=DE
+Serial number: 1da200010002ecb76080788db606
+Valid from: Wed Mar 22 23:54:28 SGT 2006 until: Thu Jan 01 06:59:59 SGT 2026
+Certificate fingerprints:
+	 MD5:  45:E1:A5:72:C5:A9:36:64:40:9E:F5:E4:58:84:67:8C
+	 SHA1: 6B:2F:34:AD:89:58:BE:62:FD:B0:6B:5C:CE:BB:9D:D9:4F:4E:39:F3
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 92 A4 75 2C A4 9E BE 81   44 EB 79 FC 8A C5 95 A5  ..u,....D.y.....
+0010: EB 10 75 73                                        ..us
+]
+]
+
+#4: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 92 A4 75 2C A4 9E BE 81   44 EB 79 FC 8A C5 95 A5  ..u,....D.y.....
+0010: EB 10 75 73                                        ..us
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: trustcenterclass2caii
+Creation date: Jan 8, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=TC TrustCenter Class 2 CA II, OU=TC TrustCenter Class 2 CA, O=TC TrustCenter GmbH, C=DE
+Issuer: CN=TC TrustCenter Class 2 CA II, OU=TC TrustCenter Class 2 CA, O=TC TrustCenter GmbH, C=DE
+Serial number: 2e6a000100021fd752212c115c3b
+Valid from: Thu Jan 12 22:38:43 SGT 2006 until: Thu Jan 01 06:59:59 SGT 2026
+Certificate fingerprints:
+	 MD5:  CE:78:33:5C:59:78:01:6E:18:EA:B9:36:A0:B9:2E:23
+	 SHA1: AE:50:83:ED:7C:F4:5C:BC:8F:61:C6:21:FE:68:5D:79:42:21:15:6E
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: E3 AB 54 4C 80 A1 DB 56   43 B7 91 4A CB F3 82 7A  ..TL...VC..J...z
+0010: 13 5C 08 AB                                        .\..
+]
+]
+
+#4: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://www.trustcenter.de/crl/v2/tc_class_2_ca_II.crl, URIName: ldap://www.trustcenter.de/CN=TC%20TrustCenter%20Class%202%20CA%20II,O=TC%20TrustCenter%20GmbH,OU=rootcerts,DC=trustcenter,DC=de?certificateRevocationList?base?]
+]]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: valicertclass2ca
+Creation date: Jan 20, 2005
+Entry type: trustedCertEntry
+
+Owner: EMAILADDRESS=info@valicert.com, CN=http://www.valicert.com/, OU=ValiCert Class 2 Policy Validation Authority, O="ValiCert, Inc.", L=ValiCert Validation Network
+Issuer: EMAILADDRESS=info@valicert.com, CN=http://www.valicert.com/, OU=ValiCert Class 2 Policy Validation Authority, O="ValiCert, Inc.", L=ValiCert Validation Network
+Serial number: 1
+Valid from: Sat Jun 26 08:19:54 SGT 1999 until: Wed Jun 26 08:19:54 SGT 2019
+Certificate fingerprints:
+	 MD5:  A9:23:75:9B:BA:49:36:6E:31:C2:DB:F2:E7:66:BA:87
+	 SHA1: 31:7A:2A:D0:7F:2B:33:5E:F5:A1:C3:4E:4B:57:E8:B7:D8:F1:FC:A6
+	 Signature algorithm name: SHA1withRSA
+	 Version: 1
+
+
+*******************************************
+*******************************************
+
+
+Alias name: ttelesecglobalrootclass3ca
+Creation date: Feb 11, 2009
+Entry type: trustedCertEntry
+
+Owner: CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+Issuer: CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+Serial number: 1
+Valid from: Wed Oct 01 18:29:56 SGT 2008 until: Sun Oct 02 07:59:59 SGT 2033
+Certificate fingerprints:
+	 MD5:  CA:FB:40:A8:4E:39:92:8A:1D:FE:8E:2F:C4:27:EA:EF
+	 SHA1: 55:A6:72:3E:CB:F2:EC:CD:C3:23:74:70:19:9D:2A:BE:11:E3:81:D1
+	 Signature algorithm name: SHA256withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: B5 03 F7 76 3B 61 82 6A   12 AA 18 53 EB 03 21 94  ...v;a.j...S..!.
+0010: BF FE CE CA                                        ....
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: entrustsslca
+Creation date: Jan 9, 2003
+Entry type: trustedCertEntry
+
+Owner: CN=Entrust.net Secure Server Certification Authority, OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS incorp. by ref. (limits liab.), O=Entrust.net, C=US
+Issuer: CN=Entrust.net Secure Server Certification Authority, OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS incorp. by ref. (limits liab.), O=Entrust.net, C=US
+Serial number: 374ad243
+Valid from: Wed May 26 00:09:40 SGT 1999 until: Sun May 26 00:39:40 SGT 2019
+Certificate fingerprints:
+	 MD5:  DF:F2:80:73:CC:F1:E6:61:73:FC:F5:42:E9:C5:7C:EE
+	 SHA1: 99:A6:9B:E6:1A:FE:88:6B:4D:2B:82:00:7C:B8:54:FC:31:7E:15:39
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.16 Criticality=false
+PrivateKeyUsage: [
+From: Wed May 26 00:09:40 SGT 1999, To: Sun May 26 00:09:40 SGT 2019]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: F0 17 62 13 55 3D B3 FF   0A 00 6B FB 50 84 97 F3  ..b.U=....k.P...
+0010: ED 62 D0 1A                                        .b..
+]
+]
+
+#4: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
+
+#5: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [CN=CRL1, CN=Entrust.net Secure Server Certification Authority, OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS incorp. by ref. (limits liab.), O=Entrust.net, C=US]
+, DistributionPoint:
+     [URIName: http://www.entrust.net/CRL/net1.crl]
+]]
+
+#6: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#7: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
+NetscapeCertType [
+   SSL CA
+   S/MIME CA
+   Object Signing CA]
+
+#8: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: F0 17 62 13 55 3D B3 FF   0A 00 6B FB 50 84 97 F3  ..b.U=....k.P...
+0010: ED 62 D0 1A                                        .b..
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: equifaxsecureebusinessca2
+Creation date: Jul 19, 2003
+Entry type: trustedCertEntry
+
+Owner: OU=Equifax Secure eBusiness CA-2, O=Equifax Secure, C=US
+Issuer: OU=Equifax Secure eBusiness CA-2, O=Equifax Secure, C=US
+Serial number: 3770cfb5
+Valid from: Wed Jun 23 20:14:45 SGT 1999 until: Sun Jun 23 20:14:45 SGT 2019
+Certificate fingerprints:
+	 MD5:  AA:BF:BF:64:97:DA:98:1D:6F:C6:08:3A:95:70:33:CA
+	 SHA1: 39:4F:F6:85:0B:06:BE:52:E5:18:56:CC:10:E1:80:E8:82:B3:85:CC
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.16 Criticality=false
+PrivateKeyUsage: [
+To: Sun Jun 23 20:14:45 SGT 2019]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 50 9E 0B EA AF 5E B9 20   48 A6 50 6A CB FD D8 20  P....^. H.Pj... 
+0010: 7A A7 82 76                                        z..v
+]
+]
+
+#4: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
+
+#5: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [CN=CRL1, OU=Equifax Secure eBusiness CA-2, O=Equifax Secure, C=US]
+]]
+
+#6: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#7: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 50 9E 0B EA AF 5E B9 20   48 A6 50 6A CB FD D8 20  P....^. H.Pj... 
+0010: 7A A7 82 76                                        z..v
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: equifaxsecureebusinessca1
+Creation date: Jul 19, 2003
+Entry type: trustedCertEntry
+
+Owner: CN=Equifax Secure eBusiness CA-1, O=Equifax Secure Inc., C=US
+Issuer: CN=Equifax Secure eBusiness CA-1, O=Equifax Secure Inc., C=US
+Serial number: 4
+Valid from: Mon Jun 21 12:00:00 SGT 1999 until: Sun Jun 21 12:00:00 SGT 2020
+Certificate fingerprints:
+	 MD5:  64:9C:EF:2E:44:FC:C6:8F:52:07:D0:51:73:8F:CB:3D
+	 SHA1: DA:40:18:8B:91:89:A3:ED:EE:AE:DA:97:FE:2F:9D:F5:B7:D1:8A:41
+	 Signature algorithm name: MD5withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#2: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 4A 78 32 52 11 DB 59 16   36 5E DF C1 14 36 40 6A  Jx2R..Y.6^...6@j
+0010: 47 7C 4C A1                                        G.L.
+]
+]
+
+#3: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
+NetscapeCertType [
+   SSL CA
+   S/MIME CA
+   Object Signing CA]
+
+#4: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 4A 78 32 52 11 DB 59 16   36 5E DF C1 14 36 40 6A  Jx2R..Y.6^...6@j
+0010: 47 7C 4C A1                                        G.L.
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: verisignclass2g2ca
+Creation date: Mar 26, 2004
+Entry type: trustedCertEntry
+
+Owner: OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 2 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+Issuer: OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 2 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+Serial number: b92f60cc889fa17a4609b85b706c8aaf
+Valid from: Mon May 18 08:00:00 SGT 1998 until: Wed Aug 02 07:59:59 SGT 2028
+Certificate fingerprints:
+	 MD5:  2D:BB:E5:25:D3:D1:65:82:3A:B7:0E:FA:E6:EB:E2:E1
+	 SHA1: B3:EA:C4:47:76:C9:C8:1C:EA:F2:9D:95:B6:CC:A0:08:1B:67:EC:9D
+	 Signature algorithm name: SHA1withRSA
+	 Version: 1
+
+
+*******************************************
+*******************************************
+
+
+Alias name: thawtepremiumserverca
+Creation date: Feb 13, 1999
+Entry type: trustedCertEntry
+
+Owner: EMAILADDRESS=premium-server@thawte.com, CN=Thawte Premium Server CA, OU=Certification Services Division, O=Thawte Consulting cc, L=Cape Town, ST=Western Cape, C=ZA
+Issuer: EMAILADDRESS=premium-server@thawte.com, CN=Thawte Premium Server CA, OU=Certification Services Division, O=Thawte Consulting cc, L=Cape Town, ST=Western Cape, C=ZA
+Serial number: 1
+Valid from: Thu Aug 01 08:00:00 SGT 1996 until: Fri Jan 01 07:59:59 SGT 2021
+Certificate fingerprints:
+	 MD5:  06:9F:69:79:16:66:90:02:1B:8C:8C:A2:C3:07:6F:3A
+	 SHA1: 62:7F:8D:78:27:65:63:99:D2:7D:7F:90:44:C9:FE:B3:F3:3E:FA:9A
+	 Signature algorithm name: MD5withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: addtrustqualifiedca
+Creation date: May 2, 2006
+Entry type: trustedCertEntry
+
+Owner: CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE
+Issuer: CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE
+Serial number: 1
+Valid from: Tue May 30 18:44:50 SGT 2000 until: Sat May 30 18:44:50 SGT 2020
+Certificate fingerprints:
+	 MD5:  27:EC:39:47:CD:DA:5A:AF:E2:9A:01:65:21:A9:4C:BB
+	 SHA1: 4D:23:78:EC:91:95:39:B5:00:7F:75:8F:03:3B:21:1E:C5:4D:8B:CF
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 39 95 8B 62 8B 5C C9 D4   80 BA 58 0F 97 3F 15 08  9..b.\....X..?..
+0010: 43 CC 98 A7                                        C...
+]
+]
+
+#4: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 39 95 8B 62 8B 5C C9 D4   80 BA 58 0F 97 3F 15 08  9..b.\....X..?..
+0010: 43 CC 98 A7                                        C...
+]
+
+[CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE]
+SerialNumber: [    01]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: ttelesecglobalrootclass2ca
+Creation date: Feb 11, 2009
+Entry type: trustedCertEntry
+
+Owner: CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+Issuer: CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+Serial number: 1
+Valid from: Wed Oct 01 18:40:14 SGT 2008 until: Sun Oct 02 07:59:59 SGT 2033
+Certificate fingerprints:
+	 MD5:  2B:9B:9E:E4:7B:6C:1F:00:72:1A:CC:C1:77:79:DF:6A
+	 SHA1: 59:0D:2D:7D:88:4F:40:2E:61:7E:A5:62:32:17:65:CF:17:D8:94:E9
+	 Signature algorithm name: SHA256withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: BF 59 20 36 00 79 A0 A0   22 6B 8C D5 F2 61 D2 B8  .Y 6.y.."k...a..
+0010: 2C CB 82 4A                                        ,..J
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: entrustglobalclientca
+Creation date: Jan 9, 2003
+Entry type: trustedCertEntry
+
+Owner: CN=Entrust.net Client Certification Authority, OU=(c) 2000 Entrust.net Limited, OU=www.entrust.net/GCCA_CPS incorp. by ref. (limits liab.), O=Entrust.net
+Issuer: CN=Entrust.net Client Certification Authority, OU=(c) 2000 Entrust.net Limited, OU=www.entrust.net/GCCA_CPS incorp. by ref. (limits liab.), O=Entrust.net
+Serial number: 389ef6e4
+Valid from: Tue Feb 08 00:16:40 SGT 2000 until: Sat Feb 08 00:46:40 SGT 2020
+Certificate fingerprints:
+	 MD5:  9A:77:19:18:ED:96:CF:DF:1B:B7:0E:F5:8D:B9:88:2E
+	 SHA1: CF:74:BF:FF:9B:86:81:5B:08:33:54:40:36:3E:87:B6:B6:F0:BF:73
+	 Signature algorithm name: MD5withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.16 Criticality=false
+PrivateKeyUsage: [
+From: Tue Feb 08 00:16:40 SGT 2000, To: Sat Feb 08 00:46:40 SGT 2020]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 84 8B 74 FD C5 8D C0 FF   27 6D 20 37 45 7C FE 2D  ..t.....'m 7E..-
+0010: CE BA D3 7D                                        ....
+]
+]
+
+#4: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
+
+#5: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [CN=CRL1, CN=Entrust.net Client Certification Authority, OU=(c) 2000 Entrust.net Limited, OU=www.entrust.net/GCCA_CPS incorp. by ref. (limits liab.), O=Entrust.net]
+]]
+
+#6: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#7: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
+NetscapeCertType [
+   SSL CA
+   S/MIME CA
+   Object Signing CA]
+
+#8: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 84 8B 74 FD C5 8D C0 FF   27 6D 20 37 45 7C FE 2D  ..t.....'m 7E..-
+0010: CE BA D3 7D                                        ....
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: digicerthighassuranceevrootca
+Creation date: Jan 8, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+Issuer: CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+Serial number: 2ac5c266a0b409b8f0b79f2ae462577
+Valid from: Fri Nov 10 08:00:00 SGT 2006 until: Mon Nov 10 08:00:00 SGT 2031
+Certificate fingerprints:
+	 MD5:  D4:74:DE:57:5C:39:B2:D3:9C:85:83:C5:C0:65:49:8A
+	 SHA1: 5F:B7:EE:06:33:E2:59:DB:AD:0C:4C:9A:E6:D3:8F:1A:61:C7:DC:25
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: B1 3E C3 69 03 F8 BF 47   01 D4 98 26 1A 08 02 EF  .>.i...G...&....
+0010: 63 64 2B C3                                        cd+.
+]
+]
+
+#4: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: B1 3E C3 69 03 F8 BF 47   01 D4 98 26 1A 08 02 EF  .>.i...G...&....
+0010: 63 64 2B C3                                        cd+.
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: utnuserfirsthardwareca
+Creation date: May 2, 2006
+Entry type: trustedCertEntry
+
+Owner: CN=UTN-USERFirst-Hardware, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+Issuer: CN=UTN-USERFirst-Hardware, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+Serial number: 44be0c8b500024b411d3362afe650afd
+Valid from: Sat Jul 10 02:10:42 SGT 1999 until: Wed Jul 10 02:19:22 SGT 2019
+Certificate fingerprints:
+	 MD5:  4C:56:41:E5:0D:BB:2B:E8:CA:A3:ED:18:08:AD:43:39
+	 SHA1: 04:83:ED:33:99:AC:36:08:05:87:22:ED:BC:5E:46:00:E3:BE:F9:D7
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  DigitalSignature
+  Non_repudiation
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: A1 72 5F 26 1B 28 98 43   95 5D 07 37 D5 85 96 9D  .r_&.(.C.].7....
+0010: 4B D2 C3 45                                        K..E
+]
+]
+
+#4: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.usertrust.com/UTN-USERFirst-Hardware.crl]
+]]
+
+#5: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  serverAuth
+  ipsecEndSystem
+  ipsecTunnel
+  ipsecUser
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: starfieldclass2ca
+Creation date: Jan 20, 2005
+Entry type: trustedCertEntry
+
+Owner: OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US
+Issuer: OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US
+Serial number: 0
+Valid from: Wed Jun 30 01:39:16 SGT 2004 until: Fri Jun 30 01:39:16 SGT 2034
+Certificate fingerprints:
+	 MD5:  32:4A:4B:BB:C8:63:69:9B:BE:74:9A:C6:DD:1D:46:24
+	 SHA1: AD:7E:1C:28:B0:64:EF:8F:60:03:40:20:14:C3:D0:E3:37:0E:B5:8A
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: BF 5F B7 D1 CE DD 1F 86   F4 5B 55 AC DC D7 10 C2  ._.......[U.....
+0010: 0E A9 88 E7                                        ....
+]
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: BF 5F B7 D1 CE DD 1F 86   F4 5B 55 AC DC D7 10 C2  ._.......[U.....
+0010: 0E A9 88 E7                                        ....
+]
+
+[OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US]
+SerialNumber: [    00]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: verisignclass1g3ca
+Creation date: Mar 26, 2004
+Entry type: trustedCertEntry
+
+Owner: CN=VeriSign Class 1 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+Issuer: CN=VeriSign Class 1 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+Serial number: 8b5b75568454850b00cfaf3848ceb1a4
+Valid from: Fri Oct 01 08:00:00 SGT 1999 until: Thu Jul 17 07:59:59 SGT 2036
+Certificate fingerprints:
+	 MD5:  B1:47:BC:18:57:D1:18:A0:78:2D:EC:71:E8:2A:95:73
+	 SHA1: 20:42:85:DC:F7:EB:76:41:95:57:8E:13:6B:D4:B7:D1:E9:8E:46:A5
+	 Signature algorithm name: SHA1withRSA
+	 Version: 1
+
+
+*******************************************
+*******************************************
+
+
+Alias name: swisssignsilverg2ca
+Creation date: Aug 14, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH
+Issuer: CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH
+Serial number: 4f1bd42f54bb2f4b
+Valid from: Wed Oct 25 16:32:46 SGT 2006 until: Sat Oct 25 16:32:46 SGT 2036
+Certificate fingerprints:
+	 MD5:  E0:06:A1:C9:7D:CF:C9:FC:0D:C0:56:75:96:D8:62:13
+	 SHA1: 9B:AA:E5:9F:56:EE:21:CB:43:5A:BE:25:93:DF:A7:F0:40:D1:1D:CB
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 17 A0 CD C1 E4 41 B6 3A   5B 3B CB 45 9D BD 1C C2  .....A.:[;.E....
+0010: 98 FA 86 58                                        ...X
+]
+]
+
+#4: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.16.756.1.89.1.3.1.1]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 20 68 74 74 70 3A 2F   2F 72 65 70 6F 73 69 74  . http://reposit
+0010: 6F 72 79 2E 73 77 69 73   73 73 69 67 6E 2E 63 6F  ory.swisssign.co
+0020: 6D 2F                                              m/
+
+]]  ]
+]
+
+#5: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 17 A0 CD C1 E4 41 B6 3A   5B 3B CB 45 9D BD 1C C2  .....A.:[;.E....
+0010: 98 FA 86 58                                        ...X
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: secomevrootca1
+Creation date: May 1, 2008
+Entry type: trustedCertEntry
+
+Owner: OU=Security Communication EV RootCA1, O="SECOM Trust Systems CO.,LTD.", C=JP
+Issuer: OU=Security Communication EV RootCA1, O="SECOM Trust Systems CO.,LTD.", C=JP
+Serial number: 0
+Valid from: Wed Jun 06 10:12:32 SGT 2007 until: Sat Jun 06 10:12:32 SGT 2037
+Certificate fingerprints:
+	 MD5:  22:2D:A6:01:EA:7C:0A:F7:F0:6C:56:43:3F:77:76:D3
+	 SHA1: FE:B8:C4:32:DC:F9:76:9A:CE:AE:3D:D8:90:8F:FD:28:86:65:64:7D
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 35 4A F5 4D AF 3F D7 82   38 AC AB 71 65 17 75 8C  5J.M.?..8..qe.u.
+0010: 9D 55 93 E6                                        .U..
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: thawteserverca
+Creation date: Feb 13, 1999
+Entry type: trustedCertEntry
+
+Owner: EMAILADDRESS=server-certs@thawte.com, CN=Thawte Server CA, OU=Certification Services Division, O=Thawte Consulting cc, L=Cape Town, ST=Western Cape, C=ZA
+Issuer: EMAILADDRESS=server-certs@thawte.com, CN=Thawte Server CA, OU=Certification Services Division, O=Thawte Consulting cc, L=Cape Town, ST=Western Cape, C=ZA
+Serial number: 1
+Valid from: Thu Aug 01 08:00:00 SGT 1996 until: Fri Jan 01 07:59:59 SGT 2021
+Certificate fingerprints:
+	 MD5:  C5:70:C4:A2:ED:53:78:0C:C8:10:53:81:64:CB:D0:1D
+	 SHA1: 23:E5:94:94:51:95:F2:41:48:03:B4:D5:64:D2:A3:A3:F5:D8:8B:8C
+	 Signature algorithm name: MD5withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: verisignclass3ca
+Creation date: Oct 27, 2003
+Entry type: trustedCertEntry
+
+Owner: OU=Class 3 Public Primary Certification Authority, O="VeriSign, Inc.", C=US
+Issuer: OU=Class 3 Public Primary Certification Authority, O="VeriSign, Inc.", C=US
+Serial number: 70bae41d10d92934b638ca7b03ccbabf
+Valid from: Mon Jan 29 08:00:00 SGT 1996 until: Wed Aug 02 07:59:59 SGT 2028
+Certificate fingerprints:
+	 MD5:  10:FC:63:5D:F6:26:3E:0D:F3:25:BE:5F:79:CD:67:67
+	 SHA1: 74:2C:31:92:E6:07:E4:24:EB:45:49:54:2B:E1:BB:C5:3E:61:74:E2
+	 Signature algorithm name: MD2withRSA
+	 Version: 1
+
+
+*******************************************
+*******************************************
+
+
+Alias name: entrustgsslca
+Creation date: Jan 9, 2003
+Entry type: trustedCertEntry
+
+Owner: CN=Entrust.net Secure Server Certification Authority, OU=(c) 2000 Entrust.net Limited, OU=www.entrust.net/SSL_CPS incorp. by ref. (limits liab.), O=Entrust.net
+Issuer: CN=Entrust.net Secure Server Certification Authority, OU=(c) 2000 Entrust.net Limited, OU=www.entrust.net/SSL_CPS incorp. by ref. (limits liab.), O=Entrust.net
+Serial number: 389b113c
+Valid from: Sat Feb 05 01:20:00 SGT 2000 until: Wed Feb 05 01:50:00 SGT 2020
+Certificate fingerprints:
+	 MD5:  9D:66:6A:CC:FF:D5:F5:43:B4:BF:8C:16:D1:2B:A8:99
+	 SHA1: 89:39:57:6E:17:8D:F7:05:78:0F:CC:5E:C8:4F:84:F6:25:3A:48:93
+	 Signature algorithm name: MD5withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.16 Criticality=false
+PrivateKeyUsage: [
+From: Sat Feb 05 01:20:00 SGT 2000, To: Wed Feb 05 01:50:00 SGT 2020]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: CB 6C C0 6B E3 BB 3E CB   FC 22 9C FE FB 8B 92 9C  .l.k..>.."......
+0010: B0 F2 6E 22                                        ..n"
+]
+]
+
+#4: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
+
+#5: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [CN=CRL1, CN=Entrust.net Secure Server Certification Authority, OU=(c) 2000 Entrust.net Limited, OU=www.entrust.net/SSL_CPS incorp. by ref. (limits liab.), O=Entrust.net]
+]]
+
+#6: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#7: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
+NetscapeCertType [
+   SSL CA
+   S/MIME CA
+   Object Signing CA]
+
+#8: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: CB 6C C0 6B E3 BB 3E CB   FC 22 9C FE FB 8B 92 9C  .l.k..>.."......
+0010: B0 F2 6E 22                                        ..n"
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: globalsignr2ca
+Creation date: Aug 1, 2007
+Entry type: trustedCertEntry
+
+Owner: CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R2
+Issuer: CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R2
+Serial number: 400000000010f8626e60d
+Valid from: Fri Dec 15 16:00:00 SGT 2006 until: Wed Dec 15 16:00:00 SGT 2021
+Certificate fingerprints:
+	 MD5:  94:14:77:7E:3E:5E:FD:8F:30:BD:41:B0:CF:E7:D0:30
+	 SHA1: 75:E0:AB:B6:13:85:12:27:1C:04:F8:5F:DD:DE:38:E4:B7:24:2E:FE
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 9B E2 07 57 67 1C 1E C0   6A 06 DE 59 B4 9A 2D DF  ...Wg...j..Y..-.
+0010: DC 19 86 2E                                        ....
+]
+]
+
+#4: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.globalsign.net/root-r2.crl]
+]]
+
+#5: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 9B E2 07 57 67 1C 1E C0   6A 06 DE 59 B4 9A 2D DF  ...Wg...j..Y..-.
+0010: DC 19 86 2E                                        ....
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: geotrustglobalca
+Creation date: Jul 19, 2003
+Entry type: trustedCertEntry
+
+Owner: CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
+Issuer: CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
+Serial number: 23456
+Valid from: Tue May 21 12:00:00 SGT 2002 until: Sat May 21 12:00:00 SGT 2022
+Certificate fingerprints:
+	 MD5:  F7:75:AB:29:FB:51:4E:B7:77:5E:FF:05:3C:99:8E:F5
+	 SHA1: DE:28:F4:A4:FF:E5:B9:2F:A3:C5:03:D1:A3:49:A7:F9:96:2A:82:12
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#2: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: C0 7A 98 68 8D 89 FB AB   05 64 0C 11 7D AA 7D 65  .z.h.....d.....e
+0010: B8 CA CC 4E                                        ...N
+]
+]
+
+#3: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: C0 7A 98 68 8D 89 FB AB   05 64 0C 11 7D AA 7D 65  .z.h.....d.....e
+0010: B8 CA CC 4E                                        ...N
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: verisignclass1g2ca
+Creation date: Mar 26, 2004
+Entry type: trustedCertEntry
+
+Owner: OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 1 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+Issuer: OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 1 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+Serial number: 4cc7eaaa983e71d39310f83d3a899192
+Valid from: Mon May 18 08:00:00 SGT 1998 until: Wed Aug 02 07:59:59 SGT 2028
+Certificate fingerprints:
+	 MD5:  DB:23:3D:F9:69:FA:4B:B9:95:80:44:73:5E:7D:41:83
+	 SHA1: 27:3E:E1:24:57:FD:C4:F9:0C:55:E8:2B:56:16:7F:62:F5:32:E5:47
+	 Signature algorithm name: SHA1withRSA
+	 Version: 1
+
+
+*******************************************
+*******************************************
+
+
+Alias name: ctcrs
+Creation date: Aug 28, 2009
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=CTCTS, OU=JP, O=COM, C=SG
+Issuer: CN=CTCTS, OU=JP, O=COM, C=SG
+Serial number: 4a977e47
+Valid from: Fri Aug 28 14:50:47 SGT 2009 until: Thu May 24 14:50:47 SGT 2012
+Certificate fingerprints:
+	 MD5:  90:82:67:76:B0:DE:8E:97:9F:A9:4F:5C:C2:38:5B:4F
+	 SHA1: 99:80:F0:EC:42:C8:38:D4:67:17:9F:6F:D5:91:DF:E9:E5:D3:05:85
+	 Signature algorithm name: SHA1withDSA
+	 Version: 3
+
+
+*******************************************
+*******************************************
+
+
+Alias name: camerfirmachambersca
+Creation date: Oct 11, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+Issuer: CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+Serial number: a3da427ea4b1aeda
+Valid from: Fri Aug 01 20:29:50 SGT 2008 until: Sat Jul 31 20:29:50 SGT 2038
+Certificate fingerprints:
+	 MD5:  5E:80:9E:84:5A:0E:65:0B:17:02:F3:55:18:2A:3E:D7
+	 SHA1: 78:6A:74:AC:76:AB:14:7F:9C:6A:30:50:BA:9E:A8:7E:FE:9A:CE:3C
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:12
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: F9 24 AC 0F B2 B5 F8 79   C0 FA 60 88 1B C4 D9 4D  .$.....y..`....M
+0010: 02 9E 17 19                                        ....
+]
+]
+
+#4: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.5.29.32.0]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 1C 68 74 74 70 3A 2F   2F 70 6F 6C 69 63 79 2E  ..http://policy.
+0010: 63 61 6D 65 72 66 69 72   6D 61 2E 63 6F 6D        camerfirma.com
+
+]]  ]
+]
+
+#5: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: F9 24 AC 0F B2 B5 F8 79   C0 FA 60 88 1B C4 D9 4D  .$.....y..`....M
+0010: 02 9E 17 19                                        ....
+]
+
+[CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU]
+SerialNumber: [    a3da427e a4b1aeda]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: swisssigngoldg2ca
+Creation date: Aug 14, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH
+Issuer: CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH
+Serial number: bb401c43f55e4fb0
+Valid from: Wed Oct 25 16:30:35 SGT 2006 until: Sat Oct 25 16:30:35 SGT 2036
+Certificate fingerprints:
+	 MD5:  24:77:D9:A8:91:D1:3B:FA:88:2D:C2:FF:F8:CD:33:93
+	 SHA1: D8:C5:38:8A:B7:30:1B:1B:6E:D4:7A:E6:45:25:3A:6F:9F:1A:27:61
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 5B 25 7B 96 A4 65 51 7E   B8 39 F3 C0 78 66 5E E8  [%...eQ..9..xf^.
+0010: 3A E7 F0 EE                                        :...
+]
+]
+
+#4: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.16.756.1.89.1.2.1.1]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 20 68 74 74 70 3A 2F   2F 72 65 70 6F 73 69 74  . http://reposit
+0010: 6F 72 79 2E 73 77 69 73   73 73 69 67 6E 2E 63 6F  ory.swisssign.co
+0020: 6D 2F                                              m/
+
+]]  ]
+]
+
+#5: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 5B 25 7B 96 A4 65 51 7E   B8 39 F3 C0 78 66 5E E8  [%...eQ..9..xf^.
+0010: 3A E7 F0 EE                                        :...
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: comodoaaaca
+Creation date: May 2, 2006
+Entry type: trustedCertEntry
+
+Owner: CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB
+Issuer: CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB
+Serial number: 1
+Valid from: Thu Jan 01 08:00:00 SGT 2004 until: Mon Jan 01 07:59:59 SGT 2029
+Certificate fingerprints:
+	 MD5:  49:79:04:B0:EB:87:19:AC:47:B0:BC:11:51:9B:74:D0
+	 SHA1: D1:EB:23:A4:6D:17:D6:8F:D9:25:64:C2:F1:F1:60:17:64:D8:E3:49
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: A0 11 0A 23 3E 96 F1 07   EC E2 AF 29 EF 82 A5 7F  ...#>......)....
+0010: D0 30 A4 B4                                        .0..
+]
+]
+
+#4: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.comodoca.com/AAACertificateServices.crl]
+, DistributionPoint:
+     [URIName: http://crl.comodo.net/AAACertificateServices.crl]
+]]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: utnuserfirstclientauthemailca
+Creation date: May 2, 2006
+Entry type: trustedCertEntry
+
+Owner: CN=UTN-USERFirst-Client Authentication and Email, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+Issuer: CN=UTN-USERFirst-Client Authentication and Email, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+Serial number: 44be0c8b500024b411d336252567c989
+Valid from: Sat Jul 10 01:28:50 SGT 1999 until: Wed Jul 10 01:36:58 SGT 2019
+Certificate fingerprints:
+	 MD5:  D7:34:3D:EF:1D:27:09:28:E1:31:02:5B:13:2B:DD:F7
+	 SHA1: B1:72:B1:A5:6D:95:F9:1F:E5:02:87:E1:4D:37:EA:6A:44:63:76:8A
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  DigitalSignature
+  Non_repudiation
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 89 82 67 7D C4 9D 26 70   00 4B B4 50 48 7C DE 3D  ..g...&p.K.PH..=
+0010: AE 04 6E 7D                                        ..n.
+]
+]
+
+#4: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.usertrust.com/UTN-USERFirst-ClientAuthenticationandEmail.crl]
+]]
+
+#5: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  clientAuth
+  emailProtection
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: equifaxsecureca
+Creation date: Jul 19, 2003
+Entry type: trustedCertEntry
+
+Owner: OU=Equifax Secure Certificate Authority, O=Equifax, C=US
+Issuer: OU=Equifax Secure Certificate Authority, O=Equifax, C=US
+Serial number: 35def4cf
+Valid from: Sun Aug 23 00:41:51 SGT 1998 until: Thu Aug 23 00:41:51 SGT 2018
+Certificate fingerprints:
+	 MD5:  67:CB:9D:C0:13:24:8A:82:9B:B2:17:1E:D1:1B:EC:D4
+	 SHA1: D2:32:09:AD:23:D3:14:23:21:74:E4:0D:7F:9D:62:13:97:86:63:3A
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.16 Criticality=false
+PrivateKeyUsage: [
+To: Thu Aug 23 00:41:51 SGT 2018]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 48 E6 68 F9 2B D2 B2 95   D7 47 D8 23 20 10 4F 33  H.h.+....G.# .O3
+0010: 98 90 9F D4                                        ....
+]
+]
+
+#4: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
+
+#5: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [CN=CRL1, OU=Equifax Secure Certificate Authority, O=Equifax, C=US]
+]]
+
+#6: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#7: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 48 E6 68 F9 2B D2 B2 95   D7 47 D8 23 20 10 4F 33  H.h.+....G.# .O3
+0010: 98 90 9F D4                                        ....
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: baltimorecybertrustca
+Creation date: May 10, 2002
+Entry type: trustedCertEntry
+
+Owner: CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE
+Issuer: CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE
+Serial number: 20000b9
+Valid from: Sat May 13 02:46:00 SGT 2000 until: Tue May 13 07:59:00 SGT 2025
+Certificate fingerprints:
+	 MD5:  AC:B6:94:A5:9C:17:E0:D7:91:52:9B:B1:97:06:A6:E4
+	 SHA1: D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:3
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: E5 9D 59 30 82 47 58 CC   AC FA 08 54 36 86 7B 3A  ..Y0.GX....T6..:
+0010: B5 04 4D F0                                        ..M.
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: verisignclass2ca
+Creation date: Oct 27, 2003
+Entry type: trustedCertEntry
+
+Owner: OU=Class 2 Public Primary Certification Authority, O="VeriSign, Inc.", C=US
+Issuer: OU=Class 2 Public Primary Certification Authority, O="VeriSign, Inc.", C=US
+Serial number: 2d1bfc4a178da391ebe7fff58b45be0b
+Valid from: Mon Jan 29 08:00:00 SGT 1996 until: Wed Aug 02 07:59:59 SGT 2028
+Certificate fingerprints:
+	 MD5:  B3:9C:25:B1:C3:2E:32:53:80:15:30:9D:4D:02:77:3E
+	 SHA1: 67:82:AA:E0:ED:EE:E2:1A:58:39:D3:C0:CD:14:68:0A:4F:60:14:2A
+	 Signature algorithm name: MD2withRSA
+	 Version: 1
+
+
+*******************************************
+*******************************************
+
+
+Alias name: camerfirmachamberscommerceca
+Creation date: Oct 11, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=Chambers of Commerce Root, OU=http://www.chambersign.org, O=AC Camerfirma SA CIF A82743287, C=EU
+Issuer: CN=Chambers of Commerce Root, OU=http://www.chambersign.org, O=AC Camerfirma SA CIF A82743287, C=EU
+Serial number: 0
+Valid from: Wed Oct 01 00:13:43 SGT 2003 until: Thu Oct 01 00:13:44 SGT 2037
+Certificate fingerprints:
+	 MD5:  B0:01:EE:14:D9:AF:29:18:94:76:8E:F1:69:33:2A:84
+	 SHA1: 6E:3A:55:A4:19:0C:19:5C:93:84:3C:C0:DB:72:2E:31:30:61:F0:B1
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:12
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: E3 94 F5 B1 4D E9 DB A1   29 5B 57 8B 4D 76 06 76  ....M...)[W.Mv.v
+0010: E1 D1 A2 8A                                        ....
+]
+]
+
+#4: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.chambersign.org/chambersroot.crl]
+]]
+
+#5: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [1.3.6.1.4.1.17326.10.3.1]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 30 68 74 74 70 3A 2F   2F 63 70 73 2E 63 68 61  .0http://cps.cha
+0010: 6D 62 65 72 73 69 67 6E   2E 6F 72 67 2F 63 70 73  mbersign.org/cps
+0020: 2F 63 68 61 6D 62 65 72   73 72 6F 6F 74 2E 68 74  /chambersroot.ht
+0030: 6D 6C                                              ml
+
+]]  ]
+]
+
+#6: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
+NetscapeCertType [
+   SSL CA
+   S/MIME CA
+   Object Signing CA]
+
+#7: ObjectId: 2.5.29.18 Criticality=false
+IssuerAlternativeName [
+  RFC822Name: chambersroot@chambersign.org
+]
+
+#8: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  RFC822Name: chambersroot@chambersign.org
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: verisignserverca
+Creation date: Jun 30, 1998
+Entry type: trustedCertEntry
+
+Owner: OU=Secure Server Certification Authority, O="RSA Data Security, Inc.", C=US
+Issuer: OU=Secure Server Certification Authority, O="RSA Data Security, Inc.", C=US
+Serial number: 2ad667e4e45fe5e576f3c98195eddc0
+Valid from: Wed Nov 09 08:00:00 SGT 1994 until: Fri Jan 08 07:59:59 SGT 2010
+Certificate fingerprints:
+	 MD5:  74:7B:82:03:43:F0:00:9E:6B:B3:EC:47:BF:85:A5:93
+	 SHA1: 44:63:C5:31:D7:CC:C1:00:67:94:61:2B:B6:56:D3:BF:82:57:84:6F
+	 Signature algorithm name: MD2withRSA
+	 Version: 1
+
+
+*******************************************
+*******************************************
+
+
+Alias name: entrust2048ca
+Creation date: Jan 9, 2003
+Entry type: trustedCertEntry
+
+Owner: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+Issuer: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+Serial number: 3863b966
+Valid from: Sat Dec 25 01:50:51 SGT 1999 until: Wed Dec 25 02:20:51 SGT 2019
+Certificate fingerprints:
+	 MD5:  BA:21:EA:20:D6:DD:DB:8F:C1:57:8B:40:AD:A1:FC:FC
+	 SHA1: 80:1D:62:D0:7B:44:9D:5C:5C:03:5C:98:EA:61:FA:44:3C:2A:58:FE
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
+0010: 09 16 B9 70                                        ...p
+]
+]
+
+#2: ObjectId: 1.2.840.113533.7.65.0 Criticality=false
+
+#3: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
+NetscapeCertType [
+   SSL CA
+   S/MIME CA
+   Object Signing CA]
+
+#4: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 55 E4 81 D1 11 80 BE D8   89 B9 08 A3 31 F9 A1 24  U...........1..$
+0010: 09 16 B9 70                                        ...p
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: utndatacorpsgcca
+Creation date: May 2, 2006
+Entry type: trustedCertEntry
+
+Owner: CN=UTN - DATACorp SGC, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+Issuer: CN=UTN - DATACorp SGC, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+Serial number: 44be0c8b500021b411d32a6806a9ad69
+Valid from: Fri Jun 25 02:57:21 SGT 1999 until: Tue Jun 25 03:06:30 SGT 2019
+Certificate fingerprints:
+	 MD5:  B3:A5:3E:77:21:6D:AC:4A:C0:C9:FB:D5:41:3D:CA:06
+	 SHA1: 58:11:9F:0E:12:82:87:EA:50:FD:D9:87:45:6F:4F:78:DC:FA:D6:D4
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  DigitalSignature
+  Non_repudiation
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 53 32 D1 B3 CF 7F FA E0   F1 A0 5D 85 4E 92 D2 9E  S2........].N...
+0010: 45 1D B4 4F                                        E..O
+]
+]
+
+#4: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.usertrust.com/UTN-DATACorpSGC.crl]
+]]
+
+#5: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  serverAuth
+  1.3.6.1.4.1.311.10.3.3
+  2.16.840.1.113730.4.1
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: trustcenterclass4caii
+Creation date: Jan 8, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=TC TrustCenter Class 4 CA II, OU=TC TrustCenter Class 4 CA, O=TC TrustCenter GmbH, C=DE
+Issuer: CN=TC TrustCenter Class 4 CA II, OU=TC TrustCenter Class 4 CA, O=TC TrustCenter GmbH, C=DE
+Serial number: 5c00001000241d0060a4dce7510
+Valid from: Thu Mar 23 22:10:23 SGT 2006 until: Thu Jan 01 06:59:59 SGT 2026
+Certificate fingerprints:
+	 MD5:  9D:FB:F9:AC:ED:89:33:22:F4:28:48:83:25:23:5B:E0
+	 SHA1: A6:9A:91:FD:05:7F:13:6A:42:63:0B:B1:76:0D:2D:51:12:0C:16:50
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 1F EA BB 3E 25 1B 06 BD   A5 DD 62 05 7E C6 4C 5A  ...>%.....b...LZ
+0010: BF E8 0F 43                                        ...C
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: soneraclass2ca
+Creation date: Mar 29, 2006
+Entry type: trustedCertEntry
+
+Owner: CN=Sonera Class2 CA, O=Sonera, C=FI
+Issuer: CN=Sonera Class2 CA, O=Sonera, C=FI
+Serial number: 1d
+Valid from: Fri Apr 06 15:29:40 SGT 2001 until: Tue Apr 06 15:29:40 SGT 2021
+Certificate fingerprints:
+	 MD5:  A3:EC:75:0F:2E:88:DF:FA:48:01:4E:0B:5C:48:6F:FB
+	 SHA1: 37:F7:6D:E6:07:7C:90:C5:B1:3E:93:1A:B7:41:10:B4:F2:E4:9A:27
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 4A A0 AA 58 84 D3 5E 3C                            J..X..^<
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: utnuserfirstobjectca
+Creation date: May 2, 2006
+Entry type: trustedCertEntry
+
+Owner: CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+Issuer: CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+Serial number: 44be0c8b500024b411d3362de0b35f1b
+Valid from: Sat Jul 10 02:31:20 SGT 1999 until: Wed Jul 10 02:40:36 SGT 2019
+Certificate fingerprints:
+	 MD5:  A7:F2:E4:16:06:41:11:50:30:6B:9C:E3:B4:9C:B0:C9
+	 SHA1: E1:2D:FB:4B:41:D7:D9:C3:2B:30:51:4B:AC:1D:81:D8:38:5E:2D:46
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  DigitalSignature
+  Non_repudiation
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: DA ED 64 74 14 9C 14 3C   AB DD 99 A9 BD 5B 28 4D  ..dt...<.....[(M
+0010: 8B 3C C9 D8                                        .<..
+]
+]
+
+#4: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.usertrust.com/UTN-USERFirst-Object.crl]
+]]
+
+#5: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  codeSigning
+  timeStamping
+  1.3.6.1.4.1.311.10.3.4
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: verisignclass1ca
+Creation date: Mar 26, 2004
+Entry type: trustedCertEntry
+
+Owner: OU=Class 1 Public Primary Certification Authority, O="VeriSign, Inc.", C=US
+Issuer: OU=Class 1 Public Primary Certification Authority, O="VeriSign, Inc.", C=US
+Serial number: cdba7f56f0dfe4bc54fe22acb372aa55
+Valid from: Mon Jan 29 08:00:00 SGT 1996 until: Wed Aug 02 07:59:59 SGT 2028
+Certificate fingerprints:
+	 MD5:  97:60:E8:57:5F:D3:50:47:E5:43:0C:94:36:8A:B0:62
+	 SHA1: 90:AE:A2:69:85:FF:14:80:4C:43:49:52:EC:E9:60:84:77:AF:55:6F
+	 Signature algorithm name: MD2withRSA
+	 Version: 1
+
+
+*******************************************
+*******************************************
+
+
+Alias name: gtecybertrustglobalca
+Creation date: May 10, 2002
+Entry type: trustedCertEntry
+
+Owner: CN=GTE CyberTrust Global Root, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
+Issuer: CN=GTE CyberTrust Global Root, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
+Serial number: 1a5
+Valid from: Thu Aug 13 08:29:00 SGT 1998 until: Tue Aug 14 07:59:00 SGT 2018
+Certificate fingerprints:
+	 MD5:  CA:3D:D3:68:F1:03:5C:D0:32:FA:B8:2B:59:E8:5A:DB
+	 SHA1: 97:81:79:50:D8:1C:96:70:CC:34:D8:09:CF:79:44:31:36:7E:F4:74
+	 Signature algorithm name: MD5withRSA
+	 Version: 1
+
+
+*******************************************
+*******************************************
+
+
+Alias name: verisigntsaca
+Creation date: Aug 14, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, ST=Western Cape, C=ZA
+Issuer: CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, ST=Western Cape, C=ZA
+Serial number: 0
+Valid from: Wed Jan 01 08:00:00 SGT 1997 until: Fri Jan 01 07:59:59 SGT 2021
+Certificate fingerprints:
+	 MD5:  7F:66:7A:71:D3:EB:69:78:20:9A:51:14:9D:83:DA:20
+	 SHA1: BE:36:A4:56:2F:B2:EE:05:DB:B3:D3:23:23:AD:F4:45:08:4E:D6:56
+	 Signature algorithm name: MD5withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: baltimorecodesigningca
+Creation date: May 10, 2002
+Entry type: trustedCertEntry
+
+Owner: CN=Baltimore CyberTrust Code Signing Root, OU=CyberTrust, O=Baltimore, C=IE
+Issuer: CN=Baltimore CyberTrust Code Signing Root, OU=CyberTrust, O=Baltimore, C=IE
+Serial number: 20000bf
+Valid from: Wed May 17 22:01:00 SGT 2000 until: Sun May 18 07:59:00 SGT 2025
+Certificate fingerprints:
+	 MD5:  90:F5:28:49:56:D1:5D:2C:B0:53:D4:4B:EF:6F:90:22
+	 SHA1: 30:46:D8:C8:88:FF:69:30:C3:4A:FC:CD:49:27:08:7C:60:56:7B:0D
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:3
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: C8 41 34 5C 15 15 04 E5   40 F2 D1 AB 9A 6F 24 92  .A4\....@....o$.
+0010: 7A 87 42 5A                                        z.BZ
+]
+]
+
+#4: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  codeSigning
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: soneraclass1ca
+Creation date: Mar 29, 2006
+Entry type: trustedCertEntry
+
+Owner: CN=Sonera Class1 CA, O=Sonera, C=FI
+Issuer: CN=Sonera Class1 CA, O=Sonera, C=FI
+Serial number: 24
+Valid from: Fri Apr 06 18:49:13 SGT 2001 until: Tue Apr 06 18:49:13 SGT 2021
+Certificate fingerprints:
+	 MD5:  33:B7:84:F5:5F:27:D7:68:27:DE:14:DE:12:2A:ED:6F
+	 SHA1: 07:47:22:01:99:CE:74:B9:7C:B0:3D:79:B2:64:A2:C8:55:E9:33:FF
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#2: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 47 E2 0C 8B F6 53 88 52                            G....S.R
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: thawtepersonalfreemailca
+Creation date: Feb 13, 1999
+Entry type: trustedCertEntry
+
+Owner: EMAILADDRESS=personal-freemail@thawte.com, CN=Thawte Personal Freemail CA, OU=Certification Services Division, O=Thawte Consulting, L=Cape Town, ST=Western Cape, C=ZA
+Issuer: EMAILADDRESS=personal-freemail@thawte.com, CN=Thawte Personal Freemail CA, OU=Certification Services Division, O=Thawte Consulting, L=Cape Town, ST=Western Cape, C=ZA
+Serial number: 0
+Valid from: Mon Jan 01 08:00:00 SGT 1996 until: Fri Jan 01 07:59:59 SGT 2021
+Certificate fingerprints:
+	 MD5:  1E:74:C3:86:3C:0C:35:C5:3E:C2:7F:EF:3C:AA:3C:D9
+	 SHA1: 20:99:00:B6:3D:95:57:28:14:0C:D1:36:22:D8:C6:87:A4:EB:00:85
+	 Signature algorithm name: MD5withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: swisssignplatinumg2ca
+Creation date: Aug 14, 2008
+Entry type: trustedCertEntry
+
+Owner: CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH
+Issuer: CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH
+Serial number: 4eb200670c035d4f
+Valid from: Wed Oct 25 16:36:00 SGT 2006 until: Sat Oct 25 16:36:00 SGT 2036
+Certificate fingerprints:
+	 MD5:  C9:98:27:77:28:1E:3D:0E:15:3C:84:00:B8:85:03:E6
+	 SHA1: 56:E0:FA:C0:3B:8F:18:23:55:18:E5:D3:11:CA:E8:C2:43:31:AB:66
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 50 AF CC 07 87 15 47 6F   38 C5 B4 65 D1 DE 95 AA  P.....Go8..e....
+0010: E9 DF 9C CC                                        ....
+]
+]
+
+#4: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.16.756.1.89.1.1.1.1]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 20 68 74 74 70 3A 2F   2F 72 65 70 6F 73 69 74  . http://reposit
+0010: 6F 72 79 2E 73 77 69 73   73 73 69 67 6E 2E 63 6F  ory.swisssign.co
+0020: 6D 2F                                              m/
+
+]]  ]
+]
+
+#5: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 50 AF CC 07 87 15 47 6F   38 C5 B4 65 D1 DE 95 AA  P.....Go8..e....
+0010: E9 DF 9C CC                                        ....
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: gtecybertrust5ca
+Creation date: May 10, 2002
+Entry type: trustedCertEntry
+
+Owner: CN=GTE CyberTrust Root 5, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
+Issuer: CN=GTE CyberTrust Root 5, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
+Serial number: 1b6
+Valid from: Fri Aug 14 22:50:00 SGT 1998 until: Thu Aug 15 07:59:00 SGT 2013
+Certificate fingerprints:
+	 MD5:  7D:6C:86:E4:FC:4D:D1:0B:00:BA:22:BB:4E:7C:6A:8E
+	 SHA1: 47:C5:4C:BC:DA:5D:76:CE:62:88:38:11:AC:11:66:5D:55:F4:2C:00
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:5
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 76 0A 49 21 38 4C 9F DE   F8 C4 49 C7 71 71 91 9D  v.I!8L....I.qq..
+]
+]
+
+#4: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [1.2.840.113763.1.2.1.3]
+[]  ]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: godaddyclass2ca
+Creation date: Jan 20, 2005
+Entry type: trustedCertEntry
+
+Owner: OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US
+Issuer: OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US
+Serial number: 0
+Valid from: Wed Jun 30 01:06:20 SGT 2004 until: Fri Jun 30 01:06:20 SGT 2034
+Certificate fingerprints:
+	 MD5:  91:DE:06:25:AB:DA:FD:32:17:0C:BB:25:17:2A:84:67
+	 SHA1: 27:96:BA:E6:3F:18:01:E2:77:26:1B:A0:D7:77:70:02:8F:20:EE:E4
+	 Signature algorithm name: SHA1withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: D2 C4 B0 D2 91 D4 4C 11   71 B3 61 CB 3D A1 FE DD  ......L.q.a.=...
+0010: A8 6A D4 E3                                        .j..
+]
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: D2 C4 B0 D2 91 D4 4C 11   71 B3 61 CB 3D A1 FE DD  ......L.q.a.=...
+0010: A8 6A D4 E3                                        .j..
+]
+
+[OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US]
+SerialNumber: [    00]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+Alias name: verisignclass3g3ca
+Creation date: Mar 26, 2004
+Entry type: trustedCertEntry
+
+Owner: CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+Issuer: CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+Serial number: 9b7e0649a33e62b9d5ee90487129ef57
+Valid from: Fri Oct 01 08:00:00 SGT 1999 until: Thu Jul 17 07:59:59 SGT 2036
+Certificate fingerprints:
+	 MD5:  CD:68:B6:A7:C7:C4:CE:75:E0:1D:4F:57:44:61:92:09
+	 SHA1: 13:2D:0D:45:53:4B:69:97:CD:B2:D5:C3:39:E2:55:76:60:9B:5C:C6
+	 Signature algorithm name: SHA1withRSA
+	 Version: 1
+
+
+*******************************************
+*******************************************
+
+
+Alias name: equifaxsecureglobalebusinessca1
+Creation date: Jul 19, 2003
+Entry type: trustedCertEntry
+
+Owner: CN=Equifax Secure Global eBusiness CA-1, O=Equifax Secure Inc., C=US
+Issuer: CN=Equifax Secure Global eBusiness CA-1, O=Equifax Secure Inc., C=US
+Serial number: 1
+Valid from: Mon Jun 21 12:00:00 SGT 1999 until: Sun Jun 21 12:00:00 SGT 2020
+Certificate fingerprints:
+	 MD5:  8F:5D:77:06:27:C4:98:3C:5B:93:78:E7:D7:7D:9B:CC
+	 SHA1: 7E:78:4A:10:1C:82:65:CC:2D:E1:F1:6D:47:B4:40:CA:D9:0A:19:45
+	 Signature algorithm name: MD5withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#2: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: BE A8 A0 74 72 50 6B 44   B7 C9 23 D8 FB A8 FF B3  ...trPkD..#.....
+0010: 57 6B 68 6C                                        Wkhl
+]
+]
+
+#3: ObjectId: 2.16.840.1.113730.1.1 Criticality=false
+NetscapeCertType [
+   SSL CA
+   S/MIME CA
+   Object Signing CA]
+
+#4: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: BE A8 A0 74 72 50 6B 44   B7 C9 23 D8 FB A8 FF B3  ...trPkD..#.....
+0010: 57 6B 68 6C                                        Wkhl
+]
+
+]
+
+
+
+*******************************************
+*******************************************
+
+

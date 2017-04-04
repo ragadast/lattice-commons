@@ -1,0 +1,14 @@
+1) a DES (symmetric) key to encrypt messages
+2) a RSA Public Key to encrypt the DES key
+3) a RSA Private Key to decrypt the DES key
+4) the decrypted DES key to decrypt the messages
+
+That being said - I think the key concept you're missing is this: in a "real" crypto environment, you're not creating your keypairs at encrypt-time. If Bob wants to make it possible for Alice to send him encrypted communication, Bob creates an RSA keypair and stores it. He then creates a Certificate Request (which contains his public key only), and sends it off to a Certificte Authority. The CA signs the CR and returns it. Bob puts that cert into his key-store as well. Then, Bob publishes that certificate (which has his pupblic key, remember) somewhere that Alice can see it (like on a webpage).
+
+Alice trusts that this public key really belongs to Bob, because the cert contains info identifying Bob and is signed by a CA that Alice trusts to have checked Bob out before signing his CR. So Alice now has access to Bob's public key.
+
+To talk to Bob, Alice uses Bob's public key to encrypt a session-key - a symmetric key (lfor AES, for example) that will be used only for this transmission. She uses the session-key to encrypt her data. She then sends the encrypted data, the encrypted key, and some plaintext telling Bob what kind of symmetric-key to expect, along to Bob. Bob can now dig his private key out of his key-store, decode the session-key, decode the ciphertext, and read Alice's message.
+
+If we want to do it right, Alice needs to sign the ciphertext. She creates a digest (using MD5 or SHA1) of the ciphertext, and encrypts it with her PRIVATE key, and sends it along. Bob, who's seen Alice's public key the same way Alice has his, can decrypt that signature using her PUBLIC key. He creates his own digest of the ciphertext. If the two digests don't match, then this ciphertext didn't come from Alice, and Bob can ignore it.
+
+That's the basic approach. Look at "keytool" for info on generating keypairs, cert-reqs, and such.

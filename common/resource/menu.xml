@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<menus>
+<menu>
+	<menuItem test="1" test2="2"/>
+	<menuItem test="2" test2="4"/>
+	<menuItem test="3" test2="6"/>
+	<menuItem test="4" test2="8"/>
+</menu>
+</menus>

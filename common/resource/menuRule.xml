@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<digester-rules>
+	<pattern value="menus">
+		<object-create-rule classname="java.util.ArrayList" />
+		<set-properties-rule />
+	</pattern>
+	<pattern value="menu">
+		<object-create-rule classname="java.util.ArrayList" />
+		<set-properties-rule />
+		<set-next-rule methodname="add"/>
+	</pattern>
+	<pattern value="*/menuItem">
+		<object-create-rule classname="org.apache.commons.beanutils.BasicDynaBean" />
+		<set-properties-rule />
+		<set-next-rule methodname="add"/>
+	</pattern>
+</digester-rules>

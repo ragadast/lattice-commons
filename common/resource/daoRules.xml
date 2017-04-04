@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<digester-rules>
+	<pattern value="dao">
+		<object-create-rule classname="org.latticesoft.util.resource.dao.GenericDAO" />
+		<set-properties-rule />
+	</pattern>
+
+	<pattern value="*/datasource">
+		<object-create-rule classname="org.latticesoft.util.resource.dao.DataSourceBean" />
+		<set-properties-rule />
+		<set-next-rule methodname="setDataSource"/>
+	</pattern>
+	<pattern value="*/datasource/user">
+		<call-method-rule methodname="setUser" paramcount="0" />
+	</pattern>
+	<pattern value="*/datasource/password">
+		<call-method-rule methodname="setPassword" paramcount="0" />
+	</pattern>
+	<pattern value="*/datasource/url">
+		<call-method-rule methodname="setUrl" paramcount="0" />
+	</pattern>
+	<pattern value="*/datasource/driver">
+		<call-method-rule methodname="setDriver" paramcount="0" />
+	</pattern>
+	<pattern value="*/datasource/dsn">
+		<call-method-rule methodname="setDsn" paramcount="0" />
+	</pattern>
+	<pattern value="*/datasource/jndi">
+		<call-method-rule methodname="setJndi" paramcount="0" />
+	</pattern>
+	<pattern value="*/datasource/timeout">
+		<call-method-rule methodname="setTimeout" paramcount="0" />
+	</pattern>
+	<pattern value="*/datasource/ds">
+		<call-method-rule methodname="setDataSource" paramcount="0" />
+	</pattern>
+
+	<pattern value="*/service">
+		<object-create-rule classname="org.latticesoft.util.resource.dao.QueryService" />
+		<set-properties-rule />
+		<set-next-rule methodname="add"/>
+	</pattern>
+	<pattern value="*/service/sql">
+		<call-method-rule methodname="setSql" paramcount="0" />
+	</pattern>
+	<pattern value="*/service/method">
+		<call-method-rule methodname="setMethod" paramcount="0" />
+	</pattern>
+	<pattern value="*/service/methodString">
+		<call-method-rule methodname="setMethodString" paramcount="0" />
+	</pattern>
+	<pattern value="*/service/name">
+		<call-method-rule methodname="setName" paramcount="0" />
+	</pattern>
+	<pattern value="*/service/type">
+		<call-method-rule methodname="setBeanType" paramcount="0" />
+	</pattern>
+	<pattern value="*/service/input/param">
+		<object-create-rule classname="org.latticesoft.util.resource.dao.Param" />
+		<set-properties-rule />
+		<set-next-rule methodname="addInput"/>
+	</pattern>
+	<pattern value="*/service/output/param">
+		<object-create-rule classname="org.latticesoft.util.resource.dao.Param" />
+		<set-properties-rule />
+		<set-next-rule methodname="addOutput"/>
+	</pattern>
+
+
+	<pattern value="*/mapService">
+		<object-create-rule classname="org.latticesoft.util.resource.dao.TableToMapService" />
+		<set-properties-rule />
+		<set-next-rule methodname="add"/>
+	</pattern>
+	<pattern value="*/mapService/sql">
+		<call-method-rule methodname="setSql" paramcount="0" />
+	</pattern>
+	<pattern value="*/mapService/key">
+		<call-method-rule methodname="setKey" paramcount="0" />
+	</pattern>
+	<pattern value="*/mapService/value">
+		<call-method-rule methodname="setValue" paramcount="0" />
+	</pattern>
+
+
+	<pattern value="*/recursiveService">
+		<object-create-rule classname="org.latticesoft.util.resource.dao.RecursiveService" />
+		<set-properties-rule />
+		<set-next-rule methodname="add"/>
+	</pattern>
+	<pattern value="*/recursiveService/sql">
+		<call-method-rule methodname="setSql" paramcount="0" />
+	</pattern>
+	<pattern value="*/recursiveService/method">
+		<call-method-rule methodname="setMethod" paramcount="0" />
+	</pattern>
+	<pattern value="*/recursiveService/methodString">
+		<call-method-rule methodname="setMethodString" paramcount="0" />
+	</pattern>
+	<pattern value="*/recursiveService/name">
+		<call-method-rule methodname="setName" paramcount="0" />
+	</pattern>
+	<pattern value="*/recursiveService/type">
+		<call-method-rule methodname="setBeanType" paramcount="0" />
+	</pattern>
+	<pattern value="*/recursiveService/input/param">
+		<object-create-rule classname="org.latticesoft.util.resource.dao.Param" />
+		<set-properties-rule />
+		<set-next-rule methodname="addInput"/>
+	</pattern>
+	<pattern value="*/recursiveService/output/param">
+		<object-create-rule classname="org.latticesoft.util.resource.dao.Param" />
+		<set-properties-rule />
+		<set-next-rule methodname="addOutput"/>
+	</pattern>
+
+</digester-rules>

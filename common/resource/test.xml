@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<main>
+	<bean id="billingService" class="com.lizjason.spring.BillingService">
+		<constructor-arg type="java.lang.String" value="lizjason"/>
+		<constructor-arg type="int" value="100"/>
+	</bean>
+	
+	<helper id="helloBean1" ref="true">
+		<testBean name="HelloBean1" message="I am hello Bean 1" />
+	</helper>
+	<helper id="helloBean2" ref="true">
+		<testBean name="HelloBean2" message="I am hello Bean 2" />
+	</helper>
+	<helper id="helloBean3" ref="true">
+		<testBean name="HelloBean3" message="I am hello Bean 3" />
+	</helper>
+	<helper id="theList" ref="true">
+		<arrayList />
+	</helper>
+	<helper id="rootObject" refId="theList">
+		<helper id="haha" method="add" >
+			<testBean name="HelloBean**" message="I am hello Bean **" />
+		</helper>
+		<helper refId="helloBean1" method="add" />
+		<helper refId="helloBean2" method="add" />
+		<helper refId="helloBean3" method="add" />
+		<helper refId="helloBean1" method="remove" />
+	</helper>
+
+</main>
